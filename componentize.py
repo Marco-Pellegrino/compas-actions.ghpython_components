@@ -267,6 +267,8 @@ if __name__ == '__main__':
     else:
         libdir = os.path.abspath(args.ghio)
     gh_io = find_ghio_assembly(libdir)
+    print(libdir)
+    print('################')
     source_bundles = [d for d in os.listdir(sourcedir)
                       if os.path.isdir(os.path.join(sourcedir, d)) and d not in ('__pycache__', '.git')]
 
