@@ -14,5 +14,5 @@ jobs:
         uses: compas-dev/compas-actions.ghpython_components@v1
 
         with:
-          source: components
+          source: examples
           target: build
