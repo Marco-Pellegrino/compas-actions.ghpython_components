@@ -15,4 +15,4 @@ jobs:
 
         with:
           source: examples
-          target: build
+          target: C:\Users\Marco\Documents\GitHub\compas-actions.ghpython_components\build
